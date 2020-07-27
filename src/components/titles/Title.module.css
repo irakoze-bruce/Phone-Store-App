@@ -1,0 +1,13 @@
+/** @format */
+
+.Title {
+  text-align: center;
+  font-family: "Merienda", cursive;
+  text-transform: capitalize;
+  margin: 2em 0 0 0;
+  font-size: 1.5em;
+}
+
+.Title span {
+  color: blue;
+}

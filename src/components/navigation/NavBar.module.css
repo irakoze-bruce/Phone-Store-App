@@ -1,0 +1,55 @@
+/** @format */
+
+.NavBar {
+  background-color: blueviolet;
+  height: 60px;
+  font-family: "Merienda", cursive;
+}
+
+.NavBar_container {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+}
+
+.NavBar_container img {
+  text-align: center;
+  text-decoration: none;
+  margin-top: -17px;
+  width: 92px;
+}
+
+.NavLink {
+  text-decoration: none;
+}
+.NavLink li:hover {
+  color: orange;
+}
+
+.NavBar_container nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6em;
+}
+
+.NavBar_container nav ul li {
+  margin-left: 2em;
+  font-size: 1.1em;
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.cart_btn {
+  padding: 0.6em 2em;
+  margin: -16px 0 0 5em;
+  line-height: 40px;
+  border-color: transparent;
+  transition: 0.5s all ease-in-out;
+}
+
+.cart_btn:hover {
+  background-color: rgb(243, 142, 9);
+}
